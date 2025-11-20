@@ -1,77 +1,70 @@
-# 📢 Sistema de Reportes Comunitarios
+🌟 Sistema de Reportes Comunitarios
 
-> **Proyecto desarrollado por un equipo de 7 estudiantes** en solo **3 días**, usando la metodología ágil **Scrum**.  
-> Diseñado para ayudar a comunidades vulnerables —como la provincia de Lucanas— a reportar y solucionar problemas de infraestructura de forma rápida y organizada.
+Desarrollado en 3 días por un equipo de 7 estudiantes usando Scrum
 
----
+Un proyecto creado para ayudar a comunidades vulnerables —como la provincia de Lucanas— a reportar y resolver problemas de infraestructura de manera rápida, sencilla y organizada.
 
-## 🎯 ¿Qué hace este sistema?
+🎯 ¿Qué permite este sistema?
 
-Este sistema permite a los ciudadanos **reportar problemas comunitarios** desde su celular o computadora, sin necesidad de conocimientos técnicos.
+La plataforma está diseñada para que cualquier ciudadano pueda reportar problemas desde su celular o computadora sin tener conocimientos técnicos.
 
 Un vecino puede:
-- 🪪 **Registrarse** con un nombre de usuario y contraseña  
-- 🔐 **Iniciar sesión** de forma segura  
-- 📝 **Crear un reporte** con:
-  - Título y descripción del problema  
-  - Categoría (basura, baches, alumbrado, seguridad, otros)  
-  - Ubicación exacta (ej: “Av. Principal entre calles 1 y 2”)  
-  - Foto del problema (opcional pero recomendada)  
-- 👀 **Ver solo sus propios reportes** en una lista clara  
-- ✏️ **Editar o eliminar** sus reportes cuando sea necesario  
 
-Y eso es todo —funcional, útil y listo para usar.
+🪪 Registrarse con usuario y contraseña
 
----
+🔐 Iniciar sesión de forma segura
 
-## 🛠 Tecnologías que usamos  
-*(todas con nivel básico-intermedio, aprendidas en equipo)*
+📝 Crear un reporte con:
 
-| Tecnología | Nivel | ¿Para qué la usamos? |
-|-----------|--------|------------------------|
-| **Python** | Básico | Lenguaje principal del backend |
-| **Django** | Básico | Framework para crear el sistema rápido y seguro |
-| **HTML + CSS** | En proceso | Diseño de las pantallas (usamos Bootstrap para ayudarnos) |
-| **MySQL** | Básico | Base de datos para guardar usuarios y reportes |
-| **Git + GitHub** | Básico | Guardar el código y trabajar en equipo sin conflictos |
-| **Trello** | Básico | Organizar el trabajo con Scrum (tarjetas, sprints, daily) |
+Título y descripción
 
-> 💡 *Importante*: No somos expertos, pero **aprendimos haciendo** —y eso es lo más valioso.
+Categoría (basura, baches, alumbrado, seguridad, otros)
 
----
+Ubicación exacta (ejemplo: “Av. Principal entre calles 1 y 2”)
 
-## 👥 Somos 7 integrantes  
-*(como se ve en la imagen 📸)*
+Foto opcional del problema
 
-Cada uno con un rol definido, siguiendo Scrum:
+👀 Visualizar solo sus propios reportes
 
-| Rol | Integrante | Responsabilidad clave |
-|-----|-------------|------------------------|
-| **Product Owner (PO)** | Jeyson | Define qué hacer, prioriza y aprueba lo entregado |
-| **Scrum Master (SM)** | Fidel | Organiza reuniones, ayuda con bloqueos y cuida el proceso |
-| **Backend Developers** | Samir, Angel, Junior | Programan la lógica: registro, reportes, seguridad |
-| **Frontend Developer** | Miguel | Diseña las pantallas: formularios, listas, botones |
-| **Full Stack / DevOps** | Juan | Configura el repositorio, base de datos y entorno |
+✏️ Editar o eliminar sus reportes
 
-➡️ **Trabajamos en paralelo**, nos ayudamos cuando alguien se atasca, y nos reunimos cada día para alinear.
+➡️ Simple, funcional y útil desde el primer día.
 
----
+🛠 Tecnologías utilizadas
+Tecnología	Nivel	Uso principal
+Python	Básico	Desarrollo del backend
+Django	Básico	Framework para el sistema web
+HTML + CSS	Intermedio	Interfaz visual (con ayuda de Bootstrap)
+MySQL	Básico	Base de datos
+Git + GitHub	Básico	Control de versiones y trabajo colaborativo
+Trello	Básico	Gestión ágil con Scrum
 
-## 🗓 Calendario: ¿Cómo lo hicimos en solo 3 días?
+👉 Aprendimos mientras construíamos. Ese fue nuestro mayor logro.
 
-| Día | Logro principal |
-|-----|------------------|
-| **Día 1** | ✅ Sistema base: repositorio, entorno Django, autenticación (registro + login) |
-| **Día 2** | ✅ CRUD completo: crear, listar, editar y eliminar reportes + subir fotos |
-| **Día 3** | ✅ Pulido final: diseño, seguridad, documentación, pruebas y entrega |
+👥 Equipo de trabajo (7 integrantes)
 
-> ⏱️ **18 horas efectivas de trabajo** (6 horas por día), más reuniones cortas diarias.
+Cada miembro tuvo un rol claro dentro de Scrum:
 
----
+Rol	Integrante	Responsabilidad
+Product Owner (PO)	Jeyson	Define prioridades y objetivos
+Scrum Master (SM)	Fidel	Facilita reuniones y elimina bloqueos
+Backend Developers	Samir, Angel, Junior	Lógica, autenticación, CRUD, seguridad
+Frontend Developer	Miguel	Diseños, vistas, formularios
+Full Stack / DevOps	Juan	Configuración del entorno, BD y repositorio
 
-## 🖥️ ¿Cómo probarlo tú mismo?
+Colaboramos en paralelo, resolvimos bloqueos juntos y nos alineamos cada día.
 
-1. **Clona el repositorio** (requiere Git instalado):
-   ```bash
-   git clone https://github.com/jhoyce-z/sistema-reportes-comunidad.git
-   cd sistema-reportes-comunidad
+🗓️ ¿Cómo logramos terminarlo en solo 3 días?
+Día	Avance logrado
+Día 1	Configuración inicial: repositorio, entorno Django, registro y login
+Día 2	CRUD completo de reportes + carga de fotos
+Día 3	Diseño final, pruebas, ajustes de seguridad y documentación
+
+⏱️ 18 horas efectivas de trabajo (6 horas por día) + reuniones ágiles diarias.
+
+🖥️ ¿Quieres probarlo?
+
+Solo necesitas tener Git instalado:
+
+git clone https://github.com/jhoyce-z/sistema-reportes-comunidad.git
+cd sistema-reportes-comunidad
